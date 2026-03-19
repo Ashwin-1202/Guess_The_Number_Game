@@ -14,9 +14,9 @@ def check_guess():
     attempts += 1
 
     if guess < number_to_guess:
-        result_label.config(text="Too Low! ⬇️")
+        result_label.config(text="Too Low! Try Again!")
     elif guess > number_to_guess:
-        result_label.config(text="Too High! ⬆️")
+        result_label.config(text="Too High! Try Again! ")
     else:
         result_label.config(text=f"Correct! 🎉 Attempts: {attempts}")
 
